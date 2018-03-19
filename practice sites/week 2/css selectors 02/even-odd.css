@@ -1,0 +1,6 @@
+li:nth-child(even) {
+    color: goldenrod;
+}
+li:nth-child(odd) {
+    color: silver;
+}

@@ -1,0 +1,6 @@
+li:last-child {
+    color: hotpink;
+}
+li:nth-last-child(3) {
+    color: purple;
+}
