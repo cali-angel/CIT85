@@ -1,0 +1,55 @@
+/*Specifity points: 1*/
+html {
+    color: green;
+}
+/*Specifity points: 2*/
+body, h1 {
+    color: blue;
+}
+/*Specifity points: 1*/
+h1 {
+    color: red;
+    font-family: cursive;
+    width: 300px;
+    height: 100px;
+    border-width: 10px;
+    border-style: solid;
+    border-color:olivedrab;
+}
+/*Specifity points: 1*/
+p {
+    width: 300px;
+    height: 150px;
+    border-width: 10px;
+    border-style: groove;
+    border-color: firebrick;
+}
+/*Specifity points: 1*/
+div {
+    color: teal;
+}
+/*Specifity points: 2*/
+div > p {
+    color: lavender;
+    width: 150px;
+    height: 50px;
+    border-width: 5px;
+    border-style: ridge;
+    border-color: firebrick;
+}
+/*Specifity points: 10*/
+.blah {
+    color: orangered;
+}
+/*Specifity points: 2*/
+.blahblah {
+    color: fuchsia;
+}
+/*Specifity points: 2*/
+.bllaahh {
+    color: grey;
+}
+/*Specifity points: 110*/
+#love .blah {
+    color: darkgoldenrod;
+}
