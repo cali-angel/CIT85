@@ -1,0 +1,51 @@
+html, body, section, div {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font: inherit;
+    color: inherit;
+}
+section {
+    height: 100vh;
+    border: 2px dashed red;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+}
+
+div {
+    width: 200px;
+    height: 150px;
+    border: 2px solid black;
+}
+.c1 {
+    flex-basis: 100%;
+    background-color: tomato;
+}
+.c2 {
+    flex-basis: 60%;
+    background-color: skyblue;
+}
+.c3 {
+    flex-basis: 40%;
+    background-color: lightgreen;
+}
+.c4 {
+    flex-basis: 50%;
+    background-color: yellow;
+}
+.c5 {
+    flex-basis: 50%;
+    background-color: plum;
+}
+
+@media (max-width: 800px) {
+    .c1 { flex-basis: 100%; }
+    .c2 { flex-basis: 100%; }
+    .c3 { flex-basis: 100%; }
+    .c4 { flex-basis: 100%; }
+    .c5 { flex-basis: 100%; }
+}
