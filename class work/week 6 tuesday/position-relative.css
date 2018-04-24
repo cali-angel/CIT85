@@ -1,0 +1,21 @@
+html, body, div {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    color: inherit;
+    box-sizing: border-box;
+}
+div {
+    width: 150px;
+    height: 150px;
+    background-color: green;
+    border: 5px solid red;
+}
+#differ {
+    background-color: navy;
+    color: white;
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
