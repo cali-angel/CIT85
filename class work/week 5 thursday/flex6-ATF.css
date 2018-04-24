@@ -1,0 +1,27 @@
+html, body, main, span {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font: inherit;
+    color: inherit;
+}
+
+#atf {
+    height: 100vh;
+    border: 3px ridge orangered;
+    background-image: url(https://ae01.alicdn.com/kf/HTB1AADwQXXXXXboXFXXq6xXFXXXQ/Customize-vinyl-cloth-tropical-green-leaves-wallpaper-photo-booth-backgrounds-for-newborn-kids-portrait-photography.jpg_640x640.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+main {
+    color: lightcoral;
+    font: 5rem sans-serif;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
