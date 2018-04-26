@@ -1,0 +1,17 @@
+#A {
+    height: 200px;
+    flex-basis: 15%;
+    order: 2;
+}
+article {
+    flex-basis: 70%;
+    order: 3;
+}
+#B {
+    height: 200px;
+    flex-basis: 15%;
+    order: 4;
+}
+footer {
+    order: 5;
+}

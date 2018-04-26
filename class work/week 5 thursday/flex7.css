@@ -1,0 +1,72 @@
+html, body, header, article, aside, footer {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    color: inherit;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+}
+header {
+    flex-basis: 100%;
+    background-color: tomato;
+    height: 100px;
+    font: 2rem sans-serif;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+article {
+    padding: 20px;
+    flex-basis: 100%;
+    background-color: lightblue;
+    height: 200px;
+    font: 2rem sans-serif;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+#A {
+    flex-basis: 100%;
+    background-color: gold;
+    height: 100px;
+    font: 2rem sans-serif;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+#B {
+    flex-basis: 100%;
+    background-color: violet;
+    height: 100px;
+    font: 2rem sans-serif;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+footer {
+    flex-basis: 100%;
+    background-color: springgreen;
+    height: 100px;
+    font: 2rem sans-serif;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
