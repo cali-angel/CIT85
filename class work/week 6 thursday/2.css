@@ -1,0 +1,39 @@
+html, body, header, main, div, footer {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    color: inherit;
+    box-sizing: border-box;
+}
+header {
+    width: 100%;
+    height: 150px;
+    border: 5px solid blue;
+    background-color: yellow;
+}
+main {
+    border: 5px solid green;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+div {
+    height: 150px;
+    border: 5px solid black;
+}
+.c1 {
+    flex-basis: 30%;
+    background-color: skyblue;
+}
+.c2 {
+    flex-basis: 70%;
+    background-color: seagreen;
+}
+footer {
+    height: 150px;
+    border: 5px solid red;
+    background-color: purple;
+}
