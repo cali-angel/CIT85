@@ -1,0 +1,17 @@
+html, body, i {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    color: inherit;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    border: 6px solid black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
