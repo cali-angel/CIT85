@@ -1,0 +1,33 @@
+html, body, div {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    color: inherit;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+}
+div {
+    width: 100px;
+    height: 100px;
+    background-color: hotpink;
+    border-radius: 50%;
+    position: absolute;
+    animation-name: all;
+    animation-duration: 4s;
+    animation-delay: 150ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+}
+@keyframes all {
+    0% { top: 0; left: 0; }
+    25% { top: 0; left: 90%; }
+    50% { top: 90%; left: 90%; }
+    75% { top: 90%; left: 0; }
+    100% { top: 0; left: 0; }
+}

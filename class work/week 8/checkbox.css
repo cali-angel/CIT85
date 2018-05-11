@@ -1,0 +1,23 @@
+html, body, div {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    color: inherit;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    border: 5px solid green;
+}
+input[type=checkbox] {
+    display: none;
+}
+label {
+    position: fixed;
+    top: 30px;
+    left: 30px;
+    padding: 10px;
+    background-color: burlywood;
+    border: 3px double maroon;
+}

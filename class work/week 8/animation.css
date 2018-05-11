@@ -3,8 +3,7 @@ html, body, div {
     padding: 0;
     border: 0;
     font: inherit;
-    color: inherit;
-    box-sizing: border-box;
+
 }
 body {
     height: 100vh;
@@ -19,12 +18,15 @@ div {
     height: 300px;
     background-color: hotpink;
     border-radius: 50%;
-    transition-duration: 750ms;
-    transition-property: all;
-    transition-timing-function: ease;
+    animation-name: color;
+    animation-duration: 1s;
+    animation-delay: 150ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
 }
-div:hover {
+@keyframes color {
+   50% {
     width: 150px;
     height: 150px;
-    background-color: aqua;
+    background-color: aqua;}
 }
