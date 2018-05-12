@@ -1,0 +1,53 @@
+html, body, nav, p, ul, li, header, section, main, h1 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    color: inherit;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Noto Sans', sans-serif;
+}
+nav {
+    height: 8vh;
+    background-color: lightgray;
+    color: #ff3b3f;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.slogan {
+    margin: 0 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+ul {
+    margin: 0 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+li {
+    width: 100px;
+    height: 8vh;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+a {
+    text-decoration: none;
+    color: #ff3b3f;
+}
+a:hover {
+    text-decoration-line: underline;
+}
